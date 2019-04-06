@@ -18,30 +18,20 @@ class Navigation extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link>
-                <Link to="../LoginForm" style={{ color: "#000000" }}>
-                  Login
-                </Link>
+              <Nav.Link href="../LoginForm" style={{ color: "#000000" }}>
+                Login
               </Nav.Link>
-              <Nav.Link>
-                <Link to="../RegisterForm" style={{ color: "#000000" }}>
-                  Register
-                </Link>
+              <Nav.Link href="../RegisterForm" style={{ color: "#000000" }}>
+                Register
               </Nav.Link>
-              <Nav.Link>
-                <Link to="../Movies" style={{ color: "#000000" }}>
-                  Movies
-                </Link>
+              <Nav.Link href="../Movies" style={{ color: "#000000" }}>
+                Movies
               </Nav.Link>
-              <Nav.Link>
-                <Link to="../Customers" style={{ color: "#000000" }}>
-                  Customers
-                </Link>
+              <Nav.Link href="../Customers" style={{ color: "#000000" }}>
+                Customers
               </Nav.Link>
-              <Nav.Link>
-                <Link to="../Rentals" style={{ color: "#000000" }}>
-                  Rentals
-                </Link>
+              <Nav.Link href="../Rentals" style={{ color: "#000000" }}>
+                Rentals
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
