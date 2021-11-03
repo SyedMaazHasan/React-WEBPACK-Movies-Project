@@ -18,7 +18,7 @@
     "react-scripts": "2.1.5",
     "react-toastify": "^5.0.0-rc.6",
     "reactstrap": "^8.0.0",
-    "validator": "^10.11.0",
+    "validator": "^13.7.0",
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
